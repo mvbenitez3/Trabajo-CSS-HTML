@@ -1,0 +1,19 @@
+@charset "utf-8";
+.main-container{
+    background-color: #fff;
+}
+
+
+.main-img-section  header img{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.main-img-section header h1{
+    margin-left: 43%;
+    margin-top: -19%;
+    color: #fff;
+    font-family: Georgia, Verdana, sans-serif;
+    font-size: 70px;
+}
