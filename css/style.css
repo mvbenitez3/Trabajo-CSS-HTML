@@ -1,19 +1,110 @@
 @charset "utf-8";
-.main-container{
-    background-color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    background-color:black;
+    padding: 0 20%;
+    
+}
+header {
+    width: 100%;
+}
+header img{
+    width: 100%;
 }
 
-
-.main-img-section  header img{
-    height: 50%;
-    width: 50%;
-    margin-left: 25%;
-}
-
-.main-img-section header h1{
-    margin-left: 43%;
-    margin-top: -19%;
+h1{
+    position: absolute;
+    top: 16%;
+    left: 43%;
+    text-align: center;
     color: #fff;
-    font-family: Georgia, Verdana, sans-serif;
-    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+}
+/*Seccion segunda imagen*/
+.section-one-two{
+    background-color: #FFF;
+}
+
+.one-section div img {
+    width: 95%;
+}
+
+.one-section{
+    text-align: justify;
+    padding: 9%;
+}
+
+button{
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 45px;
+    background-color:#f84b5b;
+}
+.container-paragraph{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 3%;
+}
+.conteiner-image-two{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    margin-right: -5%;
+    margin-top: -4%;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+body .container-paragraph  h2::first-line{
+    color:#f84b5b;
+}
+
+body .container-paragraph2  h2::first-line{
+    color:#f84b5b;
+}
+
+/*Seccion tres*/
+.container-paragraph2{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 3%;
+}
+.container-image-three{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: -4%;
+    margin-left: -4%;
+}
+
+/*imagen cuatro*/
+.container-image-four img{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top: 250%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: justify;
+    padding: 10%;
+}
+
+
+/* Clases */
+.clear {
+    clear: both;
 }
