@@ -16,12 +16,14 @@ header img{
 h1{
     position: absolute;
     top: 16%;
-    left: 43%;
+    left: 42%;
     text-align: center;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
 }
+
+
 /*Seccion segunda imagen*/
 .section-one-two{
     background-color: #FFF;
@@ -30,7 +32,6 @@ h1{
 .one-section div img {
     width: 95%;
 }
-
 .one-section{
     text-align: justify;
     padding: 9%;
@@ -63,7 +64,11 @@ h2{
     font-family: 'Roboto', sans-serif;
 }
 body .container-paragraph  h2::first-line{
-    color:#f84b5b;
+    background: linear-gradient(to right, #fa4a54,#da0170);
+   -webkit-background-clip: text;
+    color: transparent;
+   
+    /*background: linear-gradient(bottom right,);*/
 }
 
 body .container-paragraph2  h2::first-line{
@@ -97,12 +102,19 @@ body .container-paragraph2  h2::first-line{
     position: absolute;
     top: 250%;
     left: 60%;
-    transform: translate(-50%, -50%);
+    transform: translate(-37%, -50%);
     color: #FFF;
     text-align: justify;
-    padding: 10%;
+    padding: 9%;
+    font-family: 'arial', sans-serif;
+    font-size: 12px;
 }
 
+.section-footer footer div{
+    margin-top:-3% ;
+    color: #fff ;
+    background: linear-gradient(to right, #fd4c5c,#fd2e5c);
+}
 
 /* Clases */
 .clear {
