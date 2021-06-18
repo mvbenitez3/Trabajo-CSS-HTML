@@ -1,0 +1,89 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.mainMenuContainer{
+    display: flex;
+    background: #1abb9a;
+    justify-content: space-between;
+}
+.bigContainer{
+   text-align: center;
+   background: #fa8071;
+   color: #FFF;
+   padding: 2%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    width: 500px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.submenuContainer{
+    width: 20%;
+}
+
+.sectionTwo{
+    display: flex;
+}
+.leftContainer{
+    width: 30%;
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.rightContainer{
+    width: 70%;
+    padding: 6px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imageOneLefContainer{
+    background: #cbcbcb;
+    width: 300px;
+    height: 300px;
+}
+
+
+.imageOneLefContainer p{
+    line-height: 300px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.imageTwoLefContainer{
+    background: #cbcbcb;
+    width: 300px;
+    height: 150px;
+}
+
+.imageTwoLefContainer p{
+    line-height: 150px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 5px;
+}
+
+.imageOneRightContainer{
+    background: #cbcbcb;
+    width: 630px;
+    height: 200px;
+}
+.imageOneRightContainer p{
+    line-height: 200px;
+    text-align: center;
+    font-size: 30px;
+}
