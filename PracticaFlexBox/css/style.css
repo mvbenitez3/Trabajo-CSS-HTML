@@ -35,7 +35,7 @@ nav ul {
     width: 20%;
 }
 
-.sectionTwo{
+.lefSection{
     display: flex;
 }
 .leftContainer{
@@ -43,6 +43,7 @@ nav ul {
     background: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
+    display: inline-block;
 }
 
 .rightContainer{
@@ -55,7 +56,6 @@ nav ul {
     width: 300px;
     height: 300px;
 }
-
 
 .imageOneLefContainer p{
     line-height: 300px;
@@ -86,4 +86,22 @@ nav ul {
     line-height: 200px;
     text-align: center;
     font-size: 30px;
+}
+
+.edge{
+    border-bottom: 2px solid;
+    border-color: grey;
+}
+footer{
+    background: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 10px;
+    
+}
+footer h2{
+    line-height: 70px;
+    padding: 0;
+    margin: 0;
 }
