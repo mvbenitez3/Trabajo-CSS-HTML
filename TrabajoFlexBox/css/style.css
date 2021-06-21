@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px ;
+
+}
+.container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 500px;
+    color: grey;
+    padding: 0;
+}
+.container ul a{
+    text-decoration: none;
+    color: grey;
+}
+.div-buttons {
+    margin: 16px;
+    justify-content: space-evenly;
+}
+.div-buttons a{
+    text-decoration: none;
+    background: #AAA;
+    padding: 10px 9px;
+    color: #FFF;
+}
