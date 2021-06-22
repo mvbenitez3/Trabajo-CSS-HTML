@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+/*Pagina de inicio*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    font-family: sans-serif;
+    background: #24282b;
+    border-bottom: 3px solid #1293d4;
+}
+nav ul li a:hover {
+    color: #1293d4;
+}
+
+.containerMenu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;   
+    width: 500px;
+    font-size: 13px;
+    margin-top: 23px;
+}
+a{
+    text-decoration: none;
+}
+ul a{
+    color: white;
+}
+.containerTitle a{
+    color: white;
+}
+.containerTitle h2{
+    font-size: 20px;
+}
+.containerImgMain {
+    background-image: url("../images/cabecera.jpg");
+    width: 100%;
+    min-height: 50vh; 
+    background-size: cover;
+}
+.imageText h1 {
+    margin: 0;
+}
+.imageText{
+    text-align: center;
+    color: #FFF;
+    padding: 9% 27% ;
+    font-family: sans-serif;
+}
+.containerSectionThree{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 7.5%;
+    padding-right: 11%;
+    background: #24282b;
+    color: #FFF;
+    font-family: sans-serif;
+}
+.containerSectionThree h3{
+    margin: 0;
+}
+.containerSectionThree button{
+    border: none;
+    padding: 6px 10px;
+    color: #FFF;
+    background-color: #e8491d;
+    font-family: sans-serif;
+}
+.containerSectionThree input[type=text]{
+    border: none;
+    padding: 4px 10px;
+}
+.imageOneSectionFour img{
+    width: 80px;
+}
+.containerSectionFour{
+    display: flex;
+    text-align: center;
+    padding: 20px 100px;
+}
+.imageOneSectionFour{
+    margin-right: 30px;
+}
+footer{
+    background-color:#1293d4;
+    padding: 10px 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+}
+.containerTitle h2 span{
+    color:#1293d4;
+}
+/*Pagina de Nosotros*/
+
+.containerParagraphasImage{
+    width: 700px;
+    padding: 10px 100px;
+}
+
+.containerParagraphasImage img{
+    width: 700px;
+}
+
+.paragraphTwo{
+    
+}
