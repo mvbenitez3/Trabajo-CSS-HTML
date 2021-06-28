@@ -6,7 +6,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 2px 100px;
     background: #24282b;
     border-bottom: 3px solid #1293d4;
 }
@@ -19,8 +19,7 @@ nav ul li a:hover {
     justify-content: space-evenly;   
     width: 500px;
     font-size: 13px;
-    margin-top: 23px;
-    
+    margin-top: 30px;
 }
 a{
     text-decoration: none;
@@ -30,6 +29,11 @@ ul a{
 }
 .containerTitle a{
     color: white;
+}
+
+.containerTitle h2 span{
+    color:#1293d4;
+    font-size: 30px;
 }
 .containerTitle h2{
     font-size: 20px;
@@ -48,6 +52,7 @@ ul a{
 .imageText{
     text-align: center;
     color: #FFF;
+    font-size: 20px;
     padding: 9% 27% ;
 }
 .containerSectionSuscribe{
@@ -88,9 +93,7 @@ footer{
     /* font-family: sans-serif; */
     bottom: 0;
 }
-.containerTitle h2 span{
-    color:#1293d4;
-}
+
 /*Pagina de Nosotros*/
 .containerMain{
     display: flex;
@@ -101,6 +104,33 @@ footer{
 }
 .containerLeft{
     width: 60%;   
+}
+.containerSectionOneLeft{
+    border-bottom: 1px solid #b7b7b7;
+    border-right:  1px solid #b7b7b7;
+}   
+.containerBig{
+    text-align: center;
+}
+.containerSectionText{
+    padding: 30px;
+}
+.containerSectionOneRight{
+    border-bottom: 1px solid #b7b7b7;
+}
+.containerSectionTwoLeft{
+    border-right:  1px solid #b7b7b7;
+}
+.size{
+    width: 50%;
+}
+.containerSectionTwoRight{
+    width: 50%;
+}
+.containerSections{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 .containerImage img{
     margin-top: 10px;
@@ -199,6 +229,7 @@ input[type=submit] {
     display:flex;
     justify-content: space-around;
     background: #f4f4f4;
+    text-align: justify;
 }
 .containerCardServices{
     padding: 60px 100px;
@@ -209,4 +240,9 @@ input[type=submit] {
 }
 .titleServices{
     margin: 10px;
+}
+
+.selectItem{
+    font-weight: bold;
+    color:  #1293d4;
 }
