@@ -45,7 +45,7 @@ a {
   padding-top: 100px;
   padding-right: 0px;
   padding-bottom: 0px;
-  padding-left: 200px;
+  padding-left: 15%;
   background-color: #2e2550;
   color: #fff;
 }
@@ -140,10 +140,10 @@ a {
 }
 .secondContainerRight {
   width: 50%;
-  padding-left: 20px;
+  padding-left: px;
 }
 .secondContainerText {
-  padding-right: 31px;
+  padding-right: 15%;
 }
 .secondContainerText h1 {
   color: #c5558e;
@@ -156,19 +156,12 @@ a {
   color: #f1228b;
 }
 .secondContainerMenu ul{
-    list-style-image: url("../images/imageExcelet.PNG");
-}
-
-.secondContainerMenu li{
-    display: list-item;
+    list-style-image: url("../images/circleCheck.jpeg");
 }
 .secondContainerMenu ul a{
-    text-decoration: none;
     color:#3f3f3f;
 }
-.secondContainerMenu ul{
-  list-style-type: disc;
-}
+
 /*Tercera seccion*/
 .thirdContainer{
   background-color: #1e172f;
@@ -176,14 +169,16 @@ a {
 .thirdContainerText{
   text-align: center;
   color: #FFF;
+  padding: 0 25%;
+  margin-bottom: 2%;
 }
 .thirdContainerText h1{
   font-size: 65px;
   margin: 0;
   padding: 0;
   color: #FFF;
-
 }
+
 .thirdContainerCards{
   display: flex;
   justify-content: center;
@@ -204,7 +199,43 @@ a {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container {
-  padding: 2px 16px;
+.cardImages{
+  text-align: center;
+  font-weight: bold;
+}
+.cardImages p{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.cardTitle1 p{
+  color: #f41a89;
+}
+.cardPrice p{
+  margin: 0;
+  padding: 0;
+}
+.cardPrice{
+  text-align: center;
+  width: 100%;
+  padding-bottom: 16px;
+  margin-top: 10px;
+  font-size: 30px;
+  background-color: #f5f5f5;
+}
+.cardMenu1 ul{
+  list-style: none;
+  line-height: 35px;
+}
+.cardMenu1 ul a{
+  text-decoration: none;
+  color: #1d1d1d;
+  padding-left: 30px;
+}
+.MainFooter{
+  display: flex;
+  justify-content: space-around;
+    align-items: center;
 }
 
