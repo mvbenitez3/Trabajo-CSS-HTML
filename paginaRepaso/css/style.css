@@ -24,6 +24,11 @@ nav ul li a:hover {
 a {
   text-decoration: none;
 }
+.imageLogo:hover img{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+
 .buttonDownload {
   text-decoration: none;
   border: none;
@@ -66,11 +71,12 @@ a {
   font-size: 70px;
   line-height: 70px;
 }
-
+.rightContainer:hover{
+  filter: grayscale(50%);
+}
 .leftContainerText p {
   font-size: 20px;
 }
-
 .containerButtons {
   border: 2px solid #585173;
   padding: 5px;
@@ -109,7 +115,10 @@ a {
   height: 400px;
   background-size: 100% 100%;
 }
-
+.thirdContainerCards .container .cardImages img:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 /*second section*/
 .seconContainerTitle h1 {
   text-align: center;
@@ -288,3 +297,5 @@ a {
 .cardBtton1 button{
   background: linear-gradient(to right, #ec61a8, #f41988);
 }
+
+
