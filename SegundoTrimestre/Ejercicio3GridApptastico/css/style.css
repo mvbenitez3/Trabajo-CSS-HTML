@@ -117,19 +117,30 @@ ul li {
   background-color: #3d93d1;
   border: none;
   color: #ffffff;
-  padding: 12px 20px;
+  padding: 12px 30px;
 }
 .projects-images-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 8px 50px;
   margin: 0 auto;
 }
 .container-image{
-    border: 1px solid #fafafa;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .title{
-    padding: 0 150px;
+    padding: 0 120px;
     color: #4c5b66;
+}
+.section-two-image2{
+  padding: 0 70px;
+}
+.subsection-right{
+  display: flex;
+  align-items: center;
+}
+.main-section-four{
+  display: flex;
+}
+.section-four{
+  padding: 20px 120px;
 }
