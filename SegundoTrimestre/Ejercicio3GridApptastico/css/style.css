@@ -122,7 +122,7 @@ ul li {
 .projects-images-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 auto;
+  padding: 0 40px;
 }
 .container-image{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
@@ -134,13 +134,67 @@ ul li {
 .section-two-image2{
   padding: 0 70px;
 }
-.subsection-right{
+.subsection-left{
   display: flex;
   align-items: center;
 }
 .main-section-four{
   display: flex;
+  padding: 100px 100px;
 }
-.section-four{
-  padding: 20px 120px;
+.subsection-left h3{
+  margin: 0;
+  color: #727272;
+}
+
+.subsection-left p{
+  margin: 0;
+  color: #a5a5a5;
+}
+.subsection-left-paragraph{
+  padding: 10px 39px;
+  line-height: 25px;
+}
+.subsection-left img{
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.date{
+  font-size: 13px;
+  color: #bebebe;
+}
+.section-four-right p{
+  margin: 0;
+  line-height: 25px;
+  color: #a5a5a5;
+}
+.section-four-right-paragraph{
+  margin-top: 25px;
+}
+.section-four-right-paragraph span{
+  color: #727272;
+}
+ a{
+  color: #529ed5;
+  font-weight: bold;
+}
+.section-four-left{
+  width: 50%;
+}
+.section-four-right{
+  width: 50%;
+  box-sizing:border-box;
+  padding-left: 65px;
+}
+.main-section-four h3{
+  color: #4c5b66;
+}
+.link-section-four{
+  margin-top: 20px ;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #d4d3d3;
+  padding:10px 90px;
 }
