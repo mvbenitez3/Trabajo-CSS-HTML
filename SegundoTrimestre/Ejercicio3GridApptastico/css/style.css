@@ -288,4 +288,35 @@ footer{
     padding: 0;
   }
 }
-
+@media screen and (max-width:576px){
+  .image-cellphone-container img{
+    width: 80%;
+  }
+  .paragraph-right-container {
+    width: 50%;
+    font-size: 0.8em;
+  }
+  .image-cellphone-container {
+    /* width: 50%; */
+  }
+  .section-cellphone-paragraph{
+    padding:8px 15px;
+    padding-bottom: 0;
+  } 
+  .section-two-container{
+    padding: 40px 30px;
+    font-size: 0.8em;
+  }
+  .section-two-image2{
+    padding: 0 20px;
+  }
+  .section-two-container button {
+    padding: 10px 20px;
+  }
+  .projects-images-container{
+    padding: 0;
+  }
+  footer{
+    padding: 0 30px;
+  }
+}
