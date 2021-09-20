@@ -127,7 +127,7 @@ ul li {
   padding: 0 40px;
 }
 .container-image{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 4px 0 rgba(73, 39, 39, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .title{
     padding: 0 120px;
@@ -253,11 +253,11 @@ footer{
     padding: 0;
   }
   .menu-two-container{
-    padding: 10px 55px;
-    padding-right: 27px;
+    padding: 10px 30px;
+    padding-right: 15px;
   }
   .menu-two-container img{
-    width: 80%;
+    width: 70%;
   }
   .section-two-container{
     padding: 70px 50px;
@@ -289,16 +289,11 @@ footer{
   }
 }
 @media screen and (max-width:576px){
-  .image-cellphone-container img{
-    width: 80%;
-  }
   .paragraph-right-container {
     width: 50%;
     font-size: 0.8em;
   }
-  .image-cellphone-container {
-    /* width: 50%; */
-  }
+
   .section-cellphone-paragraph{
     padding:8px 15px;
     padding-bottom: 0;
@@ -316,6 +311,7 @@ footer{
   .projects-images-container{
     padding: 0;
   }
+  
   footer{
     padding: 0 30px;
   }
